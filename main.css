@@ -1,11 +1,23 @@
 /* Select by tagname */
 h1 {
-  color: red;
+  color: #000;
+  text-align: center;
+  margin-top: 40px
+}
+
+body {
+  background-image: url("will.jpg");
+}
+
+section {
+  padding-bottom: 50px;
+  margin-bottom: 35px;
+  color: white;
 }
 
 /* Select by classname */
-.header-alt {
-  border-bottom: 2px solid red;
+/*.header-alt {
+  border-bottom: 5px solid #111;*/
 }
 
 /* Select a single element by its ID */
@@ -14,15 +26,26 @@ h1 {
 }
 
 /* Select all H1s AND all .header-alts */
-h1,
+
+h4 {
+  padding-top: 45px;
+  text-align: center;
+  color: blue;
+}
+
+/*h1,
 .header-alt {
-  border-top: 2px solid blue;
+  border-top: 2px solid blue;*/
 }
 
 /* Use descendent selectors */
-div p {
+/*div p {
   font-style: italic;
+  font-size: 20px*/
 }
 
+/*p {
+  border-bottom: 2px solid #ef45d5*/
+}
 /* Target all p's and a's inside of divs */
 div p, div a {}
